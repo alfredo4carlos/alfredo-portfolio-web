@@ -54,10 +54,10 @@ export default function Footer() {
       if (validateEmail(email)) {
         emailjs
           .send(
-            process.env.REACT_APP_KEY1,
-            process.env.REACT_APP_KEY2,
+            process.env.SERVICE_KEY,
+            process.env.TEMPLATE_KEY,
             form,
-            process.env.REACT_APP_PUBLIC_KEY
+            process.env.PUBLIC_KEY
           )
           .then(
             function (response) {

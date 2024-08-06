@@ -67,7 +67,7 @@ I am a passionate full-stack web developer with expertise in React and Next.js. 
 ## Contact
 
 - Email: alfredo4carlos4@gmail.com
-- GitHub: [My GitHub Profile](https://github.com/NataffCH)
+<!-- - GitHub: [My GitHub Profile](https://github.com/NataffCH) -->
 
 ## Star and Fork
 
