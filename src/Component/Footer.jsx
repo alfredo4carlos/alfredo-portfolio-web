@@ -48,7 +48,7 @@ export default function Footer() {
 
     if (name && email && number && message) {
       if (!validateNumber(number)) {
-        alert("Please enter a valid 10 digit Number.");
+        alert("Please enter a valid digit Number.");
         return;
       }
       if (validateEmail(email)) {
@@ -100,7 +100,7 @@ export default function Footer() {
       }
     }
 
-    if (count === 10) {
+    if (count >= 10) {
       return true;
     }
     return false;
