@@ -57,7 +57,7 @@ export default function Footer() {
             process.env.SERVICE_KEY,
             process.env.TEMPLATE_KEY,
             form,
-            process.env.PUBLIC_KEY
+            process.env.PUB_KEY
           )
           .then(
             function (response) {
