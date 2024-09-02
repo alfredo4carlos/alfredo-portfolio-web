@@ -165,7 +165,7 @@ export const NavBar = () => {
             fontWeight="bolder"
             color="#00695C"
           >
-            <Box className="nav-link resume">
+            {/* <Box className="nav-link resume">
               <Link href={resume} target="_blank" id="resume-link-1">
                 <Text
                   className="nav-link contact"
@@ -174,7 +174,7 @@ export const NavBar = () => {
                   RESUME
                 </Text>
               </Link>
-            </Box>
+            </Box> */}
           </Box>
         </Flex>
       </Box>
@@ -291,7 +291,7 @@ export const NavBar = () => {
                 <Text>CONTACT</Text>
               </ScrollLink>
             </Box>
-            <Box
+            {/* <Box
               p="5px 15px"
               className="nav-link resume"
               fontWeight="bolder"
@@ -311,7 +311,7 @@ export const NavBar = () => {
                   Resume
                 </Button>
               </a>
-            </Box>
+            </Box> */}
           </DrawerBody>
         </DrawerContent>
       </Drawer>

@@ -31,6 +31,9 @@ import {
   mysql,
   mongoDB,
   fullstack,
+  aws,
+  java,
+  csharp,
 } from "../db/techstack";
 
 export default function Skills() {
@@ -46,16 +49,20 @@ export default function Skills() {
     typescript,
     express,
     react,
-    nest,
-    next,
+    angular,
     vue,
     redux,
-    angular,
+    next,
+    nest,
     node,
+    java,
+    python,
+    csharp,
     rubyonrails,
     mysql,
     postgresql,
     mongoDB,
+    aws,
   ];
 
   return (

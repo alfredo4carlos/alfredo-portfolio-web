@@ -9,6 +9,7 @@ import solanaimg from "../logo/solana.png";
 import rustimg from "../logo/rust.png";
 import nftimg from "../logo/nft.png";
 import pythonimg from "../logo/python.png";
+import csharpimg from "../logo/c#.png";
 import smartcontractimg from "../logo/smart contract.png";
 import web3img from "../logo/web3.png";
 
@@ -20,6 +21,7 @@ import angularimg from "../logo/angular.png";
 import htmlimg from "../logo/html.png";
 import cssimg from "../logo/css.png";
 import javascriptimg from "../logo/javascript.png";
+import javaimg from "../logo/java.png";
 import mongodbimg from "../logo/mongodb.png";
 import mysqlimg from "../logo/mysql.png";
 import nestimg from "../logo/nest.png";
@@ -245,8 +247,22 @@ export const express = {
 };
 
 export const aws = {
-  title: "Amazon Web Service",
+  title: "Amazon Web Services",
   img: awsimg,
+  wid: "70%",
+  swid: "40%",
+};
+
+export const csharp = {
+  title: "C#",
+  img: pythonimg,
+  wid: "70%",
+  swid: "40%",
+};
+
+export const java = {
+  title: "Java",
+  img: javaimg,
   wid: "70%",
   swid: "40%",
 };

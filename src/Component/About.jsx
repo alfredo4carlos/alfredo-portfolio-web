@@ -56,13 +56,13 @@ export default function About() {
             letterSpacing="1px"
             color={theme.theme.dText}
           >
-            Backend focused Full-Stack Developer <br></br>
+            Full-Stack Developer <br></br>
             Prioritize code quality and stability, code organization,<br></br>
             commenting, and documentation to ensure that solutions are <br></br>
             maintainable and easy to understand."
           </Text>
         </Box>
-        <Box p="5px 15px" fontWeight="bolder" color="white">
+        {/* <Box p="5px 15px" fontWeight="bolder" color="white">
           <Link href={resume} target="_blank" id="resume-link-2">
             <Button
               background="none"
@@ -77,7 +77,7 @@ export default function About() {
               Resume
             </Button>
           </Link>
-        </Box>
+        </Box> */}
       </Flex>
     </Box>
   );
