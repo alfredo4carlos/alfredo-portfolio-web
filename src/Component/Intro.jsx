@@ -220,7 +220,7 @@ export default function Intro() {
                 >
                   <Typewriter
                     words={[
-                      "Full-Stack Developer.",
+                      "Full-Stack Engineer.",
                       "Transforming ideas into digital realities.",
                       "Effective communication.",
                     ]}
