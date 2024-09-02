@@ -56,7 +56,7 @@ export default function About() {
             letterSpacing="1px"
             color={theme.theme.dText}
           >
-            Full-Stack Developer <br></br>
+            Full-Stack Engineer <br></br>
             Prioritize code quality and stability, code organization,<br></br>
             commenting, and documentation to ensure that solutions are <br></br>
             maintainable and easy to understand."
